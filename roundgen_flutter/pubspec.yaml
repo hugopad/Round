@@ -1,0 +1,35 @@
+name: roundgen_flutter
+description: ROUNDGEN multiplatform app for Android and iOS.
+publish_to: 'none'
+version: 1.0.1+2
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_local_notifications: ^17.2.4
+  firebase_core: ^4.3.0
+  firebase_messaging: ^16.0.3
+  http: ^1.2.2
+  image_picker: ^1.1.2
+  intl: ^0.20.2
+  path_provider: ^2.1.5
+  pdf: ^3.11.3
+  share_plus: ^10.0.2
+  shared_preferences: ^2.5.3
+  timezone: ^0.9.4
+  video_player: ^2.9.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
